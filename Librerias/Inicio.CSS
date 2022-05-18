@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Medieval' ;
+    src: url(/Fuentes/Sketch\ Gothic\ School.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    margin: 0;
+}
+h1{font-size: 2em;}
+h2{font-size: 1.75em;}
+h3{font-size: 1.2em;}
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 12px;
+    border: 2px solid black;
+    background-color: rgb(122, 16, 37);
+    box-shadow: -8px 10px 15px rgb(59, 5, 5);
+
+    
+}
+button:hover{
+    font-size: 1.6em;
+    background-color: rgb(133, 2, 2);
+    cursor:pointer;
+}
+.Contenedor{
+    max-width: 1400px;
+    margin: auto;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    padding: 50px;
+    background-image: url(/Imagenes/Pergamino\ Vertical\ PNG\ 2.png);
+    background-position:top;
+    background-repeat:round;
+    background-size: cover;
+    background-attachment: scroll;
+    font-size: 1.8em;
+    font-family: 'Medieval';
+    color: rgb(17, 15, 15);
+    
+}
+header .Logo{
+    margin:0;
+    padding: 25px 30px;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#Personajes{
+    background-image: url("/Imagenes/Cielito.png");
+    background-color: black;
+    background-position:top center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Historias{
+    padding: 30px 45px;
+    display: inline-block;
+    margin: 30px 40px;
+    text-align:center;
+    color: rgb(133, 76, 30);
+    font-style: italic;
+    background-image: url(/Imagenes/Fondo\ Negro\ Rojo.jpg);
+    background-position:top center;
+    background-attachment: scroll;
+    background-repeat:round;
+    background-size: 100%;
+    border-radius: 20px;
+    text-shadow: -8px 5px 10px rgb(255, 0, 0);
+}
+
+#Retrato1, #Retrato2, #Retrato3{
+    border-radius: 40px;
+    padding: 200px 120px;
+    background-size: cover;
+    box-shadow: -8px 15px 10px rgb(59, 5, 5) ;
+    
+}
+
+#Retrato1{
+    background-image: url("/Imagenes/Genghis\ Khan\,\ the\ Dragonborn\ orc.jpg");
+}
+#Retrato2{background-image: url(/Imagenes/Hellmuth-2.jpg);}
+#Retrato3{background-image: url("/Imagenes/Amon-Goth.jpg");}
+footer{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+#Leandro{
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
