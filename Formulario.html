@@ -4,9 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registro de Jugador</title>
+    <link rel="stylesheet" href="/Librerias/Historias.css">
 </head>
+
 <body>
-    
+
+    <header>
+        <form action="Amon.html"><button>Atrás</button></form>
+        <h1>Registro de Jugador</h1>
+        <form action="Inicio.html"><button>Inicio</button></form>
+  </header>
+
+<form action="Inicio.html" method="get">
+    <section class="Seccion1">
+        <div class="Parrafo">
+
+            <label>Cedula</label>
+            <input type="text" name="Cedula" id="cedula" value="" placeholder="Ingrese Cedula">
+
+            <label for="">Nombre</label>
+            <input type="text" name="Nombre" id="nombre" value="" placeholder="Ingrese Nombre">
+            <br>
+            <label for="">Edad</label>
+            <input type="text" name="edad" id="edad" placeholder="Ingrese Edad">
+
+            <label for="">Usuario</label>
+            <input type="text" name="Usuario" id="usuario" value="" placeholder="Ingrese Nombre de Usuario">
+            <br>
+
+            <label for="">Contraseña</label>
+            <input type="password" id="contraseña" value="" placeholder="Ingrese Contraseña"/>
+            <br>
+
+            <label for="">Confirme la Contraseña</label>
+            <input type="password" id="contraseña2" value="" placeholder="Confirme la contraseña"/>
+            <br>
+            <label for="">Sexo</label>
+            <select id="Sexo">
+                <option value="M">Masculino</option>
+                <option value="F">Femenino</option>
+            </select>
+            <label for="">Foto de Perfil</label>
+            <input type="file" name="Foto" id="Perfil">
+            <br>
+
+            <button type="submit" id="Guardar" value="guardar">Guardar</button>
+            <button type="reset" id="Limpiar" value="limpiar">limpiar</button>
+        </div>
+
+    </section>
+
+</form>
+
 </body>
 </html>

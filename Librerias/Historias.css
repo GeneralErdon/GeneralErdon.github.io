@@ -53,7 +53,7 @@ button:hover{
     cursor:pointer;
 }
 
-h1, .Titulos{
+h1, .Titulos, label{
     text-align: center;
     color: rgb(255, 255, 255);
     font-style: italic;
@@ -95,6 +95,18 @@ img{
     min-height: 15cm;
     align-items: center;
 
+}
+/* Formulario */
+label{
+    color: black;
+    margin:auto;
+}
+input{
+    margin: 10px;
+
+}
+#Limpiar,#Guardar{
+    margin: 1.2em;
 }
 
 
