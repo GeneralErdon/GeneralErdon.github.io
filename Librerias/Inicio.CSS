@@ -6,6 +6,12 @@
     src: url(/Fuentes/Sketch\ Gothic\ School.ttf) format("truetype");
     font-style: normal;
     font-weight: normal;
+
+}
+@font-face {
+    font-family: 'Viking';
+    src: url(/Fuentes/Viking.ttf);
+
 }
 body{
     margin: 0;
@@ -17,7 +23,8 @@ button{
     font-size: 1.5em;
     font-weight: bold;
     padding: 10px;
-    padding-left: 30px;
+    font-family: 'Viking';
+
     border-radius: 12px;
     border: 2px solid black;
     background-color: rgb(122, 16, 37);

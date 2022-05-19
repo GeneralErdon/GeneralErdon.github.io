@@ -1,0 +1,99 @@
+*{box-sizing: border-box;}
+@font-face {
+    font-family: 'Viking';
+    src: url(/Fuentes/Viking.ttf);
+}
+body{
+    background-color: black;
+    background-image:url(/Imagenes/Bosque.jpg);
+    background-repeat: round;
+    background-size:contain;
+    background-position: top center;
+    background-attachment: fixed;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    text-align: justify;
+    margin:0%;
+
+}
+hr{
+    border-color: rgb(71, 0, 0);
+    border-width: 4px;
+}
+
+header,footer{
+    padding: 30px;
+    background-color: rgba(0, 0, 5) ;
+    background-image: url(/Imagenes/Cielito.png);
+    background-repeat: round;
+    background-attachment: fixed;
+    display:flex;
+}
+form{
+    margin: auto;
+}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    font-family: 'Viking';
+    border-radius: 12px;
+    border: 2px solid black;
+    background-color: rgb(122, 16, 37);
+    box-shadow: -8px 10px 15px rgb(59, 5, 5);
+}
+button:hover{
+    font-size: 1.6em;
+    background-color: rgb(133, 2, 2);
+    cursor:pointer;
+}
+
+h1, .Titulos{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-family: 'Viking';
+    text-decoration: underline;
+    text-shadow: -8px 5px 10px rgb(0, 162, 255);
+}
+span{
+    color: rgb(70, 0, 14);
+    font-size: 18pt;
+    font-family: 'Viking';
+    text-decoration:underline;
+}
+
+
+.Seccion1{
+    margin:3%;
+    display:inline-flex;
+}
+
+.Parrafo{
+    background-image: url(/Imagenes/Papel\ viejo.jpg);
+    padding: 30px 25px;
+    background-attachment: scroll;
+    background-repeat: round;
+    background-position: top center;
+    background-size: cover;
+    display: inline-block;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+img{
+    display: inline-block;
+    margin-left: 5cm;
+    min-width: 10cm;
+    min-height: 15cm;
+    align-items: center;
+
+}
+
+
+
+
