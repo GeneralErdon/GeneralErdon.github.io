@@ -17,6 +17,9 @@ body{
     margin:0%;
 
 }
+#Amon{
+    background-image: url(/Imagenes/Fondo-Amon.jpg);
+}
 hr{
     border-color: rgb(71, 0, 0);
     border-width: 4px;
